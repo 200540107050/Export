@@ -1,0 +1,79 @@
+body {
+    border: 10px;
+    display: block;
+    width: 100%;
+}
+
+.img-fluid {
+    float: left;
+    display: block;
+    
+}
+
+.logo-bg {
+    background-color: #f8f9fa;
+    margin-left: 20px;
+}
+
+.navbar {
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+.carousel-control-prev {
+    visibility: hidden;
+}
+
+.carousel-control-next {
+    visibility: hidden;
+}
+
+.container1 {
+    position: relative;
+    width: 100%;
+}
+
+
+
+.img1 {
+    position: absolute;
+    z-index: 1;
+    height: 500px;
+}
+
+.img2 {
+    position: absolute;
+    z-index: 2;
+    width: 70%;
+    margin-top: -500px;
+    margin-left: 10%;
+}
+
+.head {
+    float: left;
+    text-align: center;
+}
+
+.head h3 {
+    color: green;
+}
+
+.head h5 {
+    background: green;
+    color: white;
+    font-size: large;
+    margin-top: 20px;
+}
+
+.col-8 h4 {
+    color: green;
+}
+
+.col-2 h4 {
+    color: green;
+}
+
+.card nav{
+height: min-content;
+font-size: 20px;
+}
